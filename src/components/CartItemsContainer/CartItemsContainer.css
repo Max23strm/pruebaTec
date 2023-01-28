@@ -1,0 +1,8 @@
+.ItemsContainer{
+    display: flex;
+    flex-direction: column;
+    gap: 26px;
+    margin-bottom: 26.5px;
+    height: 410px;
+    overflow-y: auto;
+}

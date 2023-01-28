@@ -1,0 +1,45 @@
+.cartItem{
+    min-height: 83px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1rem;
+}
+
+.itemText{
+    display: flex;
+    flex-direction: column;
+    gap: 9px;
+}
+.itemText h6, .itemText p{
+    margin: 0;
+}
+
+.itemText h6{
+    color:#3F4C58;
+    font-size: 20px;
+    text-align: left;
+    line-height: 33px;
+    font-weight: 500;
+}
+.itemText p{
+    color:#3F4C58;
+    font-size: 1rem;
+    text-align: left;
+}
+
+.cartItem .itemPrice p{
+    color: #3F4C58;
+    margin: 0;
+    font-size: 22px;
+    line-height: 33px;
+}
+
+.cartItem button{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+

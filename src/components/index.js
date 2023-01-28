@@ -1,3 +1,8 @@
 export { default as CartCard } from './CartCard/CartCard'
 export {default as CartHeader} from './CartHeader/CartHeader'
 export {default as ButtonComponent} from './buttonComponent/buttonComponent'
+export {default as CartItemsContainer} from './CartItemsContainer/CartItemsContainer'
+export {default as CartItem} from './CartItem/CartItem'
+export {default as ItemCounter} from './ItemCounter/ItemCounter'
+export {default as CartTotals} from './CartTotals/CartTotals'
+export {default as TotalItem} from './TotalItem/TotalItem'

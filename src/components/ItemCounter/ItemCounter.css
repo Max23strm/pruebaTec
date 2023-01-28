@@ -1,0 +1,20 @@
+.itemCounter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+}
+.itemCounter button{
+    color:#A1B0C1;
+    background-color: #DFE8F2;
+    border: unset;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+.itemCounter p{
+    margin: 0;
+    color: #3F4C58;
+}

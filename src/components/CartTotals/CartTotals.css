@@ -1,0 +1,15 @@
+.cartTotalSection{
+    height: 184px;
+}
+.cartTotalSection hr{
+    color:#A8B9CC;
+    opacity: 30%;
+    margin-bottom: 19px;
+}
+
+.titlesContainer{
+    display: flex;
+    flex-direction: column;
+    height: 165px;
+    justify-content: space-between;
+}

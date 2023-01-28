@@ -1,0 +1,9 @@
+.totalItem{
+    display: flex;
+    justify-content: space-between;
+}
+.totalItem p{
+    margin: 0;
+    color: #3F4C58;
+    font-size: 22px;
+}

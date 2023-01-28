@@ -1,4 +1,4 @@
-import {CartHeader} from '../index'
+import {CartHeader, CartItemsContainer, CartTotals} from '../index'
 
 import './CartCard.css'
 
@@ -8,7 +8,8 @@ const CartCard = () => {
     <div className="CartContainer">
       <section className='cartContent'>
         <CartHeader/>
-        
+        <CartItemsContainer/>
+        <CartTotals/>
       </section>
     </div>
   )
