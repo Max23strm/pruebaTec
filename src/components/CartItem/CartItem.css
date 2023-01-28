@@ -12,9 +12,15 @@
     display: flex;
     flex-direction: column;
     gap: 9px;
+    width: 170px;
 }
 .itemText h6, .itemText p{
     margin: 0;
+    overflow: hidden;
+    width: 100%;
+    text-overflow: ellipsis;
+    max-height: 33px;
+    white-space: nowrap;
 }
 
 .itemText h6{

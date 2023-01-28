@@ -1,10 +1,10 @@
 import './TotalItem.css'
 
-const TotalItem = ({title, amount}) => {
+const TotalItem = ({title, amount, type=""}) => {
   return (
-    <div className='totalItem'>
+    <div className={`totalItem ${type}`}>
         <p className='totalItemTitle'>{title}</p>
-        <p className='totalItemAmount'>${amount}</p>
+        <p className='totalItemAmount'>${amount.toFixed(2)}</p>
     </div>
   )
 }

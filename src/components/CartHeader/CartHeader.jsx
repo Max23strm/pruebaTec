@@ -1,9 +1,18 @@
+import { useDispatch } from 'react-redux'
 import CartLogo from '../../assets/images/cart-shopping-fast.png'
 import {ButtonComponent} from '../index'
+import { removeAll } from '../../redux/cartSlice'
 
 import './CartHeader.css'
 
 const CartHeader = () => {
+
+  const dispatch =useDispatch()
+
+  const handleRemove = () => {
+    dispatch(removeAll())
+  }
+
   return (
     <section className='cartHeader'>
         <div className='headerTitle'>
@@ -12,7 +21,7 @@ const CartHeader = () => {
         </div>
 
 
-        <ButtonComponent content={"Remove all"}/>
+        <ButtonComponent content={"Remove all"} event={handleRemove}/>
     </section>
   )
 }

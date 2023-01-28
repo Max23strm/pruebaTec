@@ -5,4 +5,10 @@
     margin-bottom: 26.5px;
     height: 410px;
     overflow-y: auto;
+    overflow-x: hidden;
+}
+
+.emptyCart{
+    text-align: center;
+    color: #8998A8;
 }

@@ -1,0 +1,34 @@
+[
+    {
+        "item_name":"Oled screen",
+        "short_description": "Screen replacement",
+        "quantity": 4,
+        "price_without_tax": 10.85,
+        "tax": 2,
+        "shipping_fee": 2
+    },
+    {
+        "item_name":" Nvidia Rtx 3080",
+        "short_description": "GPU",
+        "quantity": 2,
+        "price_without_tax": "30",
+        "tax": 1,
+        "shipping_fee": 2
+    },
+    {
+        "item_name":"Led Lights for Bedroom 100ft",
+        "short_description": "Decoration",
+        "quantity": 1,
+        "price_without_tax": 25.99,
+        "tax": 4.6,
+        "shipping_fee": 2
+    },
+    {
+        "item_name":"OZO NC2 Hybrid Active Noise Cancelling Wireless Earbuds",
+        "short_description": "Accesories",
+        "quantity": 3,
+        "price_without_tax": 33.98,
+        "tax": 1,
+        "shipping_fee": 2
+    }
+]

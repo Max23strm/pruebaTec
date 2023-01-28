@@ -3,7 +3,7 @@ import './buttonComponent.css'
 
 const ButtonComponent = ({content, event}) => {
   return (
-    <button>{content}</button>
+    <button onClick={(e)=>event(e)}>{content}</button>
   )
 }
 
