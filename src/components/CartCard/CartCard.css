@@ -1,0 +1,10 @@
+.CartContainer{
+    background-color: #F4F6F8;
+    min-width: 511px;
+    min-height: 763px;
+    border-radius: 24px;
+    padding: 44px;
+    margin: 22px;
+    filter: drop-shadow(0px 23px 23px rgba(53, 0, 126, 0.4));
+}
+
